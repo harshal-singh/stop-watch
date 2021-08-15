@@ -4,7 +4,7 @@ To view demo, [visit my github page musicly](https://harshal-singh.github.io/sto
 
 ## features:
 
-*start
-*pause
-*resume
-*reset
+-   start
+-   pause
+-   resume
+-   reset
