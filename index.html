@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>StopWatch</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="apple-touch-icon" href="./logo.png" />
+        <link rel="shortcut icon" href="./logo.png" type="image/x-icon" />
+    </head>
+    <body>
+        <nav>
+            <a href="/" class="logo">
+                <img src="./logo.png" alt="stopwatch logo" />
+                StopWatch
+            </a>
+        </nav>
+        <main>
+            <div class="stopwatch_container">
+                <h1>
+                    <span id="minutes">00</span>
+                    <span class="colon">:</span>
+                    <span id="seconds">00</span>
+                    <span class="colon">:</span>
+                    <span id="miliSeconds">00</span>
+                </h1>
+            </div>
+            <div class="btn_group">
+                <button class="enabled" id="btn_start">start</button>
+                <button class="disabled" id="btn_pause" disabled>pause</button>
+                <button class="disabled" id="btn_reset" disabled>reset</button>
+            </div>
+        </main>
+        <footer>© 2021 Harshal Singh.</footer>
+        <script src="./index.js"></script>
+    </body>
+</html>
