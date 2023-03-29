@@ -110,14 +110,3 @@ btn_reset.onclick = () => {
   paused = false;
   reseted = true;
 };
-
-const timeInterval = window.setInterval(function () {
-  var date = new Date();
-  if (date.getHours() === 15 && date.getMinutes() === 0) {
-    btn_start.click();
-    clearInterval(timeInterval);
-    btn_start.textContent = "start";
-  } else {
-    btn_start.textContent = "checking";
-  }
-}, 1000);
